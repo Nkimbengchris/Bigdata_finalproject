@@ -1,0 +1,41 @@
+<!-- build 20211.21.0511.0935                               -->
+<datasource
+    formatted-name='federated.fK7QJSpjmjwSPXtJewNQhRYzAVTL'
+    inline='true'
+    version='21.3'
+    xmlns:user='http://www.tableausoftware.com/xml/user'>
+
+  <document-format-change-manifest>
+    <_.fcp.DatabricksCatalog.true...DatabricksCatalog />
+  </document-format-change-manifest>
+  <connection class='federated'>
+    <named-connections>
+      <named-connection
+          caption='adb-3529977200421214.14.azuredatabricks.net'
+          name='databricks.fK7QJSpjmjwSPXtJewNQhRYzAVTL'>
+        <connection
+            authentication='oauth'
+            instanceurl='https://adb-3529977200421214.14.azuredatabricks.net/oidc'
+            server-oauth='server-custom'
+            username=''
+
+            authentication-type=''
+            class='databricks'
+            odbc-connect-string-extras=''
+            one-time-sql=''
+            _.fcp.DatabricksCatalog.false...dbname='sql/protocolv1/o/3529977200421214/1219-172904-zirtmbvs'
+            _.fcp.DatabricksCatalog.true...dbname=''
+            _.fcp.DatabricksCatalog.true...v-http-path='sql/protocolv1/o/3529977200421214/1219-172904-zirtmbvs'
+            schema=''
+            tableName=''
+            server='adb-3529977200421214.14.azuredatabricks.net'>
+          <connection-customization class='databricks' enabled='false' version='21.3'>
+            <vendor name='databricks' />
+            <driver name='databricks' />
+          </connection-customization>
+        </connection>
+      </named-connection>
+    </named-connections>
+    
+  </connection>
+</datasource>
